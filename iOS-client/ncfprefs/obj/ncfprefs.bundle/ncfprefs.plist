@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key> <string>PSGroupCell</string>
+			<key>label</key> <string>NCForward Settings</string>
+		</dict>
+		
+		<dict>
+			<key>cell</key> <string>PSGroupCell</string>
+			<key>label</key> <string>Here, you can specify the host IP address if you want to. Use 255.255.255.255 for sending to all Computers in your network. If you want to disable NCForward, type 127.0.0.1.</string>
+		</dict>
+		
+		<dict>
+			<key>cell</key> <string>PSEditTextCell</string>
+			<key>default</key> <string>255.255.255.255</string>
+			<key>defaults</key> <string>org.h6nry.ncforward.prefs</string>
+			<key>key</key> <string>ip</string>
+			<key>label</key> <string>Host IP</string>
+		</dict>
+		
+		<dict>
+			<key>action</key> <string>twitter</string>
+			<key>cell</key> <string>PSButtonCell</string>
+			<key>label</key> <string>My Twitter @H6nry_</string>
+		</dict>
+		
+		<dict>
+			<key>action</key> <string>mail</string>
+			<key>cell</key> <string>PSButtonCell</string>
+			<key>label</key> <string>Write an e-mail to me</string>
+		</dict>
+		
+		<dict>
+			<key>action</key> <string>website</string>
+			<key>cell</key> <string>PSButtonCell</string>
+			<key>label</key> <string>My Website</string>
+		</dict>
+		
+		<dict>
+			<key>cell</key> <string>PSGroupCell</string>
+			<key>label</key> <string>License of this tweak:
+Do what you want with it, just email me if you are going to publish parts of this.
+I also would like to be mentioned in the source code, if published in source code form,
+and credited, if published only in binary form.
+Due to the informality of this license, you are allowed to ignore this if you want to.</string>
+		</dict>
+		
+		<dict>
+			<key>cell</key> <string>PSGroupCell</string>
+			<key>footerText</key> <string>Made with love in 2015 by H6nry (henry.anonym@gmail.com)</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>NCForward</string>
+</dict>
+</plist>

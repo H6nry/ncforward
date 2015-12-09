@@ -1,4 +1,6 @@
 #import <CoreFoundation/CoreFoundation.h>
+#import <Foundation/Foundation.h>
+#import <CoreGraphics/CoreGraphics.h>
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <arpa/inet.h>
@@ -260,10 +262,6 @@
 @end
 
 
-
-
-
-
 @interface BBContent : NSObject <NSCopying, NSCoding> {
 
 	NSString* _title;
@@ -288,4 +286,17 @@
 -(void)dealloc;
 -(id)copyWithZone:(NSZone*)arg1 ;
 -(id)description;
+@end
+
+
+@interface SBApplicationController : NSObject { //Incomplete.
+}
++(id)sharedInstance;
+-(id)allApplications;
+@end
+
+@interface SBApplication : NSObject {
+}
+-(id)displayName;
+-(id)bundleIdentifier;
 @end

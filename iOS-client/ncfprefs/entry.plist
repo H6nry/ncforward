@@ -11,7 +11,7 @@
 		<key>detail</key>
 		<string>ncfprefsListController</string>
 		<key>icon</key>
-		<string>Icon@3x.png</string>
+		<string>Icon.png</string>
 		<key>isController</key>
 		<string>1</string>
 		<key>label</key>
